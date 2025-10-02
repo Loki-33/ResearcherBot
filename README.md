@@ -7,7 +7,7 @@ An autonomous research system powered by local LLMs (via llama.cpp) and Exa API 
 3. Structured output by using Pydantic
 
 
-### HOW TO RUN:
+### USAGE:
 1. Make sure to first run the all the three llama.cpp server in the specified port i.e 8001, 8002 and 8003 using your desired models, in my case I used the qwen1.5 instruct model
 2. Then just run the main.py
 
