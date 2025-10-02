@@ -7,11 +7,11 @@ An autonomous research system powered by local LLMs (via llama.cpp) and Exa API 
 3. Structured output by using Pydantic
 
 
-## HOW TO RUN:
+### HOW TO RUN:
 1. Make sure to first run the all the three llama.cpp server in the specified port i.e 8001, 8002 and 8003 using your desired models, in my case I used the qwen1.5 instruct model
 2. Then just run the main.py
 
-## To RUN llama.cpp server:
+### To RUN llama.cpp server:
 - build/bin/llama-server -m models/qwen2.5-0.5b-instruct-fp16.gguf --port 8001
 - make sure the you download the model form huggingface in gguf format and put it in llama/models folder
 
